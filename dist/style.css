@@ -1,0 +1,28 @@
+.background {
+  display: inline-block;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(5, 100px);
+  grid-template-rows: repeat(5, 100px);
+  border: 1px solid black;
+  align-content: center;
+  grid-gaps: 100px;
+}
+.cell {
+  display: flex;
+  border: 1px solid black;
+  justify-content: center;
+  padding: 5px;
+  align-items: center;
+  background: blue;
+  color: white;
+}
+.cell:hover{
+  opacity:90%;
+}
+.cell:active{
+  transform: translateY(3px);
+}
+.cell-1 {
+}
